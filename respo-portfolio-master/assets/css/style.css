@@ -61,6 +61,10 @@ h3 {
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+  overflow: hidden;
+    position: fixed; /* i added 64-67 but i dont think its working, not sure what else to add. HC */
+    top: 0; 
+    width: 100%; 
 }
 
 #logo {
@@ -214,4 +218,26 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+@media only screen and (max-width: 980px) {
+  body {
+     
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+     
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
 }
